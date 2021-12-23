@@ -167,7 +167,10 @@ input {
 
 /* Subheading */
 h2 {
-  color: #2800FF;
+  color: #000000;
+}
+p {
+  color: #000;
 }
 
 /* Interactive image */
@@ -184,9 +187,17 @@ h2 {
 }
 @media screen {
   body {
-    background-color: red;
+    background-color: rgb(255, 255, 255);
   }
   .title {
     font-size: 5vw;
+  }
+  .h2 {
+    font-size: 4vw;
+    text-align: center;
+  }
+  .p {
+    font-size: 3vw;
+    text-align: center;
   }
 }
