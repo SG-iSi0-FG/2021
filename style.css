@@ -140,6 +140,17 @@ body {
   margin: 0;
 }
 
+.h2 {
+  font-size: 80px;
+  line-height: 85%;
+  margin: 0;
+}
+
+.p {
+  font-size: 60px;
+  line-height: 65%;
+  margin: 0;
+}
 /* Very light scaling for our illustration */
 .illustration {
   max-width: 100%;
@@ -193,11 +204,9 @@ p {
     font-size: 5vw;
   }
   .h2 {
-    font-size: 4vw;
-    text-align: center;
+    font-size: 5vw;
   }
   .p {
-    font-size: 3vw;
-    text-align: center;
+    font-size: 5vw;
   }
 }
